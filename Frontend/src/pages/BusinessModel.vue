@@ -29,7 +29,26 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper">
-                                                    
+                                                    <!-- Contant area -->
+
+  <div class="container innerpage">
+    <div class="row ">
+      <div class="col-md-9">
+      
+      	<div class="row mt-5">
+        <!-- <h2>Structure</h2> -->
+       	<center><img src="wp-content/themes/npc/images/services/org-structure.jpg" /></center>
+        </div> 
+      
+    
+      
+    
+      
+    </div>
+  </div>
+</div>
+
+<!-- Contant area ends--> 
                                                 </div>
                                             </div>
                                         </div>

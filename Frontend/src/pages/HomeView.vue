@@ -336,7 +336,7 @@
 <div class="clearfix"></div>
 
 <!-- Contant area -->
-<div class="content_area">
+<div class="">
   <div class="container">
     <div class="row featurette">
      
@@ -378,7 +378,7 @@
 						<div class="col-md-3"><img class="img-responsive" src="assets/gallery_images/951331741A4.jpg" width="350" height="175" alt="chicken"></div>
 			        </div><br />
 
-        <p><a role="button" href="/images-gallery" class="btn btn-default">View More</a></p>
+        <!-- <p><a role="button" href="/images-gallery" class="btn btn-default">View More</a></p> -->
       </div>
       <!--/gallery-->
     </div>

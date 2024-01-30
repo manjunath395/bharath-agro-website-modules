@@ -179,7 +179,7 @@
 
  
     <div>
-  <p class="address">
+  <p class="address" style="font-weight:400px;">
  Head Office:<br>
    Behind Annapoorneshwari Building, <br>
     Mahaveer Circle, Pumpwell<br>
@@ -211,8 +211,8 @@
         <div style="background-image: url(assets/img/shape/12.png);"></div>
         <!-- End Shape -->
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+            <div class="row text-center">
+                <div class="">
                     <div class="site-heading text-center">
                         <h4>how we started</h4>
                         <h2>The Openfield Timeline</h2>
@@ -222,7 +222,7 @@
         </div>
   <div class="swiper-container-wrapper swiper-container-wrapper--timeline cl">
     <!-- Timeline -->
-    <ul class="swiper-pagination-custom">
+    <ul class="swiper-pagination-custom" style="margin-left:10px;">
       <li class='swiper-pagination-switch first active top'><span class='switch-title'>1911</span></li>
       <li class='swiper-pagination-switch'><span class='switch-title'>1970</span></li>
       <li class='swiper-pagination-switch'><span class='switch-title'>2001</span></li>
@@ -334,7 +334,7 @@ body {
 /* Swiper Container Styles */
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
-  /* background: #fff; */
+  background: #fff;
   min-height: 300px;
  width: 50%;
   /* align-items: center; */
@@ -349,8 +349,11 @@ body {
 
 .swiper-container-wrapper--timeline .swiper-slide .title {
   font-size: 18px;
+  text-align: center;
+  margin-left: 0px;
+  width: 75%;
   /* opacity: 0; */
-  transition: 0.5s ease 0.5s;
+  transition: 0.9s ease 0.9s;
 }
 
 .swiper-container-wrapper--timeline .swiper-slide--active .title {
@@ -364,10 +367,11 @@ body {
   background-color: transparent;
   height: 4px;
   border-bottom: 1px solid var(--secondary-color);
-  width: 75%;
+  width: 100%;
+  overflow: hidden;
   /* align-items: right; */
   /* margin-left: 100px; */
-  overflow: hidden;
+ 
 }
 
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar-fill {
@@ -433,7 +437,7 @@ body {
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title:after {
   position: absolute;
   top: calc(100% + 15px);
-  right: 50%;
+ right: -120px;
   transform: translateX(50%) translateY(-50%);
   width: 12px;
   height: 12px;
@@ -443,6 +447,16 @@ body {
   transition: 0.2s all ease-in-out;
   transition-delay: 0s;
   z-index: 1;
+   /* content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -100px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1; */
 }
 
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active .switch-title {

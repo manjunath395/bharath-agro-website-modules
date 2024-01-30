@@ -24,8 +24,8 @@
                                         <a href="/business-model">Business Model</a></li>
                                     <li id="menu-item-868"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-868">
-                                        <a href="/operations">Operation</a>
-                                        <ul class="sub-menu">
+                                        <a href="/operations-view">Operations</a>
+                                        <!-- <ul class="sub-menu">
                                             <li id="menu-item-555"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-555">
                                                 <a href="our-company/operation/breeders/index.html">Breeders</a></li>
@@ -51,14 +51,14 @@
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561">
                                                 <a href="our-company/operation/distribution/index.html">Distribution</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
-                                    <li id="menu-item-280"
+                                    <!-- <li id="menu-item-280"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280">
                                         <a href="/our-clients">Our Clients</a></li>
                                     <li id="menu-item-281"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281">
-                                        <a href="/our-customers">Our Customers</a></li>
+                                        <a href="/our-customers">Our Customers</a></li> -->
                                 </ul>
                             </li>
                           
@@ -111,9 +111,9 @@
                                     </li>
                                 </ul>
                             </li> -->
-                            <li id="menu-item-275"
+                            <!-- <li id="menu-item-275"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a
-                                    href="/brands-view">Brands</a></li>
+                                    href="/brands-view">Brands</a></li> -->
                             <li id="menu-item-282"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-282">
                                 <a href="/products-view">Products</a>
@@ -178,6 +178,24 @@
                             <li id="menu-item-284"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a
                                     href="/contact-us">Contact us</a></li>
+
+                          
+                                <!-- <div class="social-networks">
+                       
+                            <li class="facebook"><a class="facebook-icon" title="Facebook"
+                                    href="#"
+                                    target="_blank"><span class="icon-tekst">Facebook</span></a></li>
+                            <li class="instagram"><a class="instagram-icon" title="Instagram"
+                                    href="#" target="_blank"><span
+                                        class="icon-tekst">Instagram</span></a></li>
+                       
+                    </div> -->
+
+                    <li class="navbar-social-icons">
+      <a href="https://www.facebook.com/bharathsfreshchicken2005" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/bharathsfreshchicken/?hl=en" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </li>
+                                    
                       
                         </ul>
                     </div>
@@ -204,18 +222,18 @@
                                 <li id="menu-item-133"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133"><a
                                         href="our-company/business-model/index.html">Business Model</a></li>
-                                <li id="menu-item-135"
+                                <!-- <li id="menu-item-135"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a
-                                        href="our-company/our-clients/index.html">Our Clients</a></li>
-                                <li id="menu-item-136"
+                                        href="our-company/our-clients/index.html">Our Clients</a></li> -->
+                                <!-- <li id="menu-item-136"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a
-                                        href="our-company/our-customers/index.html">Our Customers</a></li>
+                                        href="our-company/our-customers/index.html">Our Customers</a></li> -->
                             </ul>
                         </div>
                     </div>
                     <div class="footer-block">
-                        <h4 class="footer-block-title">Operation</h4>
-                        <div class="menu-footer-3-container">
+                        <h4 class="footer-block-title"><a href="/operations-view">Operations</a></h4>
+                        <!-- <div class="menu-footer-3-container">
                             <ul id="menu-footer-3" class="footer-list1">
                                 <li id="menu-item-291"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a
@@ -240,10 +258,15 @@
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a
                                         href="our-company/operation/distribution/index.html">Distribution</a></li>
                             </ul>
-                        </div>
+                        </div> -->
+                    </div>
+
+                      <div class="footer-block">
+                        <h4 class="footer-block-title"><a href="/products-view">Products</a></h4>
+                        
                     </div>
                   
-                    <div class="footer-block">
+                    <!-- <div class="footer-block">
                         <h4 class="footer-block-title">Sustainability</h4>
                         <div class="menu-footer-8-container">
                             <ul id="menu-footer-8" class="footer-list1">
@@ -276,8 +299,8 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="footer-block">
+                    </div> -->
+                    <!-- <div class="footer-block">
                         <h4 class="footer-block-title">Brands</h4>
                         <div class="menu-footer-4-container">
                             <ul id="menu-footer-4" class="footer-list1">
@@ -289,8 +312,8 @@
                                         href="#">Bharath Agrovet Industries</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="footer-block">
+                    </div> -->
+                    <!-- <div class="footer-block">
                         <h4 class="footer-block-title">Product Range</h4>
                         <div class="menu-footer-5-container">
                             <ul id="menu-footer-5" class="footer-list1">
@@ -314,9 +337,9 @@
                                     <a href="products-categories/bravo/index.html">Bravo</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                  
-                    <div class="footer-block">
+                    <!-- <div class="footer-block">
                         <h4 class="footer-block-title">Financial</h4>
                         <div class="menu-footer-9-container">
                             <ul id="menu-footer-9" class="footer-list1">
@@ -325,14 +348,14 @@
                                         href="financial/annual-report/index.html">Annual Report</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="footer-block">
                         <h4 class="footer-block-title">News</h4>
                         <div class="menu-footer-11-container">
                             <ul id="menu-footer-11" class="footer-list11">
                                 <li id="menu-item-1584"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1584"><a
-                                        href="ar/category/news/index.html">News</a></li>
+                                        href="/news-view">News</a></li>
                             </ul>
                         </div>
                     </div>
@@ -341,10 +364,10 @@
                     <div class="social-networks">
                         <ul>
                             <li class="facebook"><a class="facebook-icon" title="Facebook"
-                                    href="https://www.facebook.com/National-Poultry-Company-691223137939649/"
+                                    href="https://www.facebook.com/bharathsfreshchicken2005"
                                     target="_blank"><span class="icon-tekst">Facebook</span></a></li>
                             <li class="instagram"><a class="instagram-icon" title="Instagram"
-                                    href="https://www.instagram.com/nationalpoultrycompany/" target="_blank"><span
+                                    href="https://www.instagram.com/bharathsfreshchicken/?hl=en" target="_blank"><span
                                         class="icon-tekst">Instagram</span></a></li>
                         </ul>
                     </div>
@@ -377,5 +400,15 @@ export default {
   /* text-align: center; */
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+.navbar-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 </style>

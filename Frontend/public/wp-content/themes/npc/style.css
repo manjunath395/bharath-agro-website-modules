@@ -3472,6 +3472,14 @@ nav.navbar.validnavs.inc-shape::after {
 	border-radius: inherit;
 	-webkit-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
+	text-align: center;
+}
+
+.content_area {
+    /* background: none repeat scroll 0 0 #FFFFFF; */
+    margin: 20px 0 0;
+    padding: 20px 0;
+    width: 100%;
 }
 
 .banner-area .swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -8370,7 +8378,7 @@ progress {
 }
 
 .container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
-    width: 100%;
+    width: 90%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
@@ -9140,7 +9148,7 @@ progress {
     }
 
     .offset-lg-2 {
-        margin-left: 16.66666667%
+        margin-left: 8.66666667%
     }
 
     .offset-lg-3 {
